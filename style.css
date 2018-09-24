@@ -1,0 +1,254 @@
+/* general */
+
+/* 
+x - x-axis
+y - y-axis
+l - left
+r - right
+t - top
+b - bottom */
+
+.flex-container{
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#r-nav{
+    color: rgb(230, 230, 230);
+}
+
+/* header */
+
+header{
+    /* header background */
+    background-color: black;
+}
+
+img{
+    width: 250px;
+    height: 166px;
+}
+
+.logo-image{
+    width: 133px;
+    height: 40px;
+}
+/*.header-padding{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}*/
+
+.flex-container nav a{
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+.flex-container nav a:hover{
+    color: #1db954;
+
+}
+
+#r-nav:hover{
+    color: #1db954;
+}
+
+.flex-container div{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+ nav{
+    padding-top: 10px;
+   
+}
+
+.facebook-signup nav a{
+    color: white;
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+.facebook-signup{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.menu-holder nav{
+position: absolute;
+right: 0;
+}
+
+.menu-holder{
+    position: relative;
+    width: 100%;
+    margin-top: -15px;
+}
+
+/* main */
+
+
+body{
+    margin: 0px;
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-border{
+    border-left: white solid;
+}
+.banner{
+    width: 100%;
+    min-height: 300px;
+    max-height: 500px;
+    background-image: url('background.jpg');
+    color: #ffff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.banner{
+    font-size: 24pt;
+}
+
+.banner .banner-content{
+    width: 75%;
+    margin: 0 auto;
+}
+
+h4{
+    margin-top: -30px;
+}
+
+.email-btn{
+    margin-top: -35px;
+}
+
+.btn-green{
+    background-color:#1db954;
+    color:#fff;
+    font-weight: bold;
+    padding:5px 25px;
+    border: 10px solid #1db954;
+    border-radius: 25px;
+    width: 150px;
+}
+
+.email-field{
+    border: 15px solid #fff;
+    border-radius: 3px;
+    padding: 0 20px;
+}
+
+.body-text{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 14pt;
+}
+
+main .flex-container:last-child{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main .flex-container:last-child > *{
+    margin:10px;
+    position: relative;
+}
+
+.image-box{
+    /* font-weight: bold; */
+    text-align: center;
+}
+/* footer */
+
+footer{
+    background-color: black;
+}
+
+.flex-container .first-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+#g-nav{
+    color: gray;
+}
+
+#w-nav{
+    color: white;
+}
+
+#w-nav:hover{
+    color: #1db954;
+}
+
+#w-nav2{
+    color: white;
+}
+
+.space-out{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+.footer-nav{
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+#f-nav:hover{
+    color: #1db954;
+    /* color: gray; */
+}
+
+.last-footer{
+    font-size: 0.5em;
+    color: gray;
+    padding: 30px;
+}
+
+#f-nav{
+    font-size: 1.5em;
+    color: gray;
+}
+
+.end{
+    /* floamargin-left: 70%; */
+    /* text-align: right !importan; */
+    margin-left: 200px;
+    /* float: right !important; */
+}
+
+#social-icon{
+    margin-left: 200px;
+}
+
+.end{
+    background-color: none;
+    position: absolute;
+    left: 65%;
+}
+
+#span2:hover{
+    color: #1db954;
+}
+
+#f-nav2{
+    font-size: 1.5em;
+    color: gray;
+}
+
+#span1{
+    font-weight: bold;
+}
